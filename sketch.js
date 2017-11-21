@@ -44,9 +44,9 @@ function draw() {
         textSize(40)
         text('Turn the VOLUME on', frameCount*3.5, random(150,153))
         fill(0,255,0)
-        text('Turn the VOLUME on', frameCount*3, random(147,152))
+        text('Turn the VOLUME on', frameCount*3.5, random(147,152))
             pop()
-    textSize(63.5);
+    textSize(79);
     noStroke()
            push()
     textFont('Saira Extra Condensed')
