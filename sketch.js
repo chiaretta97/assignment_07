@@ -43,11 +43,11 @@ function draw() {
     textFont('Saira Extra Condensed')
     blendMode(LIGHTEST);
     fill(255,0,0);
-    text('SPEAAAAAAKKKKKKK', random(-5,0), 223);
+    text('SPEAAAAAAKKKKKKK', random(-5,0), random(268,270));
         fill(0,0,255);
-    text('SPEAAAAAAKKKKKKK', 0, random(222,225));
+    text('SPEAAAAAAKKKKKKK', random(2,5), random(269,272));
         fill(0,255,0);
-    text('SPEAAAAAAKKKKKKK', random(0,3), random(220,225));
+    text('SPEAAAAAAKKKKKKK', random(0,3), random(266,269));
         pop()
       
     } else {
