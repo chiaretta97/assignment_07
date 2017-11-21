@@ -37,9 +37,18 @@ function draw() {
     if (vol < 0.1) {    
      mySong.play();
     image(myVideo, 0, 0, 500, 500);
+             push()
+         blendMode(LIGHTEST);
+        fill(255,0,0)
+        textFont('Saira Extra Condensed')
+        textSize(40)
+        text('Turn the VOLUME on', frameCount*3.5, random(150,153))
+        fill(0,255,0)
+        text('Turn the VOLUME on', frameCount*3, random(147,152))
+            pop()
     textSize(63.5);
     noStroke()
-        push()
+           push()
     textFont('Saira Extra Condensed')
     blendMode(LIGHTEST);
     fill(255,0,0);
@@ -48,7 +57,7 @@ function draw() {
     text('SPEAAAAAAKKKKKKK', random(2,5), random(269,272));
         fill(0,255,0);
     text('SPEAAAAAAKKKKKKK', random(0,3), random(266,269));
-        pop()
+           pop()
       
     } else {
             
