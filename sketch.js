@@ -9,7 +9,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(400,400)
+  createCanvas(500,500)
   frameRate(100)
   
   mySong.loop();
